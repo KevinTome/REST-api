@@ -13,7 +13,7 @@ Building a fully functional REST API with Node.js, express and MongoDB
 | Route               | Method | Description                          |
 |---------------------|--------|--------------------------------------|
 | /subscribers        | GET    | Get all subscribers from database    |
-| /subscribers/:id    | GET    | Get one subscriber by name           |
+| /subscribers/:id    | GET    | Get one subscriber by id             |
 | /subscribers        | POST   | Create one subscriber                |
 | /subscribers/:id    | PATCH  | Update one subscriber by id          |
 | /subscribers/:id    | DELETE | Delete one subscriber by id          |
