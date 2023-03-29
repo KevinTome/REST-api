@@ -1,4 +1,25 @@
 GET http://localhost:3000/subscribers
 
 ###
-GET http://localhost:3000/subscribers/15
+GET http://localhost:3000/subscribers/6424b74abb997d9e06f01ec6
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Kevin Lourenco",
+    "subscribedToChannel": "Salve ahaam" 
+}
+
+###
+DELETE http://localhost:3000/subscribers/6424badc7ad69d8ca4d0fb82
+
+###
+PATCH http://localhost:3000/subscribers/6424badc7ad69d8ca4d0fb82
+Content-Type: application/json
+
+{
+    "name": "New name"
+}
